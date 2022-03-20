@@ -1,0 +1,4 @@
+enum BuildFlavor {
+  Development,
+  Production,
+}

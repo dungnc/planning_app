@@ -1,0 +1,82 @@
+name: agileplanning
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 0.8.0+26
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^0.16.0
+  firebase: ^7.3.2
+  firebase_analytics: ^7.0.1
+  firebase_auth: ^0.20.0
+  firebase_core: ^0.7.0
+  firebase_crashlytics: ^0.4.0
+  firebase_database: ^6.0.0
+  firebase_performance: ^0.5.0+1
+  firebase_remote_config: ^0.6.0
+  firebase_dynamic_links: ^0.7.0+1
+  firebase_in_app_messaging: ^0.3.0+1
+  firebase_messaging: ^8.0.0-dev.15
+  flutter_local_notifications: ^4.0.1+2
+  js: ^0.6.3-nullsafety.3
+  flutter_svg: ^0.18.0
+  intl: ^0.16.1
+  keyboard_visibility: ^0.5.6
+  logging: ^0.11.4
+  rxdart: ^0.24.1
+  auto_size_text: ^2.1.0
+  vibration: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+  # flutter_flavorizr: ^1.0.3
+  flutter_launcher_icons: "^0.7.3"
+  intl_translation: ^0.17.10
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app-icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/avatars/
+# flavorizr:
+#   app:
+#     android:
+#       flavorDimensions: "flavor-type"
+#     ios:
+
+#   flavors:
+#     development:
+#       app:
+#         name: "[D] Agile planning"
+
+#       android:
+#         applicationId: "com.brainping.agileplanning.dev"
+
+#       ios:
+#         bundleId: "com.brainping.agileplanning.dev"
+
+#     production:
+#       app:
+#         name: "Agile planning"
+
+#       android:
+#         applicationId: "com.brainping.agileplanning"
+#       ios:
+#         bundleId: "com.brainping.agileplanning"
